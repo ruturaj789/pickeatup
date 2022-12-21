@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankYou"
+    android:orientation="vertical"
+    android:background="#000000">
+
+
+
+
+
+    <TextView
+        android:id="@+id/thankstxt"
+        android:layout_marginTop="20dp"
+        android:textColor="#F8F7F1"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Thank You. Your Order is Sucessfully Placed!"></TextView>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFEFE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You will get a confirmatiom call soon."></TextView>
+
+
+
+
+    <TextView
+        android:layout_gravity="center"
+
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:textColor="#F4F4F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Summary "></TextView>
+
+
+    <TextView
+        android:id="@+id/totalpr"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#F4F4F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total "></TextView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvthanks"></androidx.recyclerview.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/torder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:text="Track Your Order"></Button>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,1493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".breakfaststores.BreakfastStores">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pickeatupicon"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="5400dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename1"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename2"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename3"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore4"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/pickeatupicon"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename4"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename5"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename6"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename7"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename8"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename9"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename10"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename11"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename13"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename14"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename15"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename16"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename17"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename18"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename19"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/cstore20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/cstorename20"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoreadress20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/cstoretime20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

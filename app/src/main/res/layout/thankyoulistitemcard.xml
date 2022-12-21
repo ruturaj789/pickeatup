@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/ctitlep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="India Gate Basmati Rice"
+            android:textColor="#FDFDFC"></TextView>
+
+        <TextView
+            android:id="@+id/ctypep"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:text="2Kg"
+            android:textColor="#F2F3EB"></TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:text="Price: ₹"
+            android:textColor="#D5EA03"></TextView>
+
+        <TextView
+            android:id="@+id/cpeupricep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:text="135"
+            android:textColor="#FDFDFC"></TextView>
+
+
+        <TextView
+
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="15dp"
+            android:text="Quantity:"
+            android:textColor="#D5EA03"></TextView>
+
+        <TextView
+            android:id="@+id/cquantityp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:text="2"
+            android:textColor="#FDFDFC"></TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,1493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fastfoodstores.FastfoodStores">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pickeatupicon"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="5400dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename1"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename2"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename3"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore4"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/pickeatupicon"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename4"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename5"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename6"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename7"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename8"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename9"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename10"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename11"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename13"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename14"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename15"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename16"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename17"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename18"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename19"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/dstore20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/dstorename20"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoreadress20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/dstoretime20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

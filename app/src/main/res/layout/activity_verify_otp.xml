@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/otpbackg"
+    tools:context=".VerifyOtp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:src="@drawable/pickeatupiclogin"
+        android:layout_height="250dp"
+        android:layout_gravity="center"></ImageView>
+
+
+    <EditText
+        android:background="#FFFEFE"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:id="@+id/editTextCode"
+        android:layout_width="wrap_content"
+        android:textColor="#151212"
+        android:layout_height="wrap_content"
+        android:hint="Enter Verification Code"
+        android:inputType="textMultiLine"
+        android:textColorHint="#150B0B"></EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="#FBF7F7"
+        android:text="Submit"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="214dp"
+        android:visibility="gone"></ProgressBar>
+
+    </LinearLayout>

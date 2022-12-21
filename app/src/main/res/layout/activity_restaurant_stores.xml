@@ -1,0 +1,1493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".restaurantstores.RestaurantStores">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pickeatupicon"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="5400dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename1"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename2"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename3"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore4"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/pickeatupicon"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename4"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename5"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename6"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename7"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename8"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename9"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename10"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename11"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename13"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename14"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename15"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename16"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename17"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename18"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename19"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/estore20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/estorename20"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoreadress20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/estoretime20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

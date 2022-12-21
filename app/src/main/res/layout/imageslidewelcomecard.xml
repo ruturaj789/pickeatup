@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    android:id="@+id/phone_Cardview"
+    app:cardElevation="6dp">
+
+
+
+        <ImageView
+            android:id="@+id/slideimage"
+            android:layout_width="match_parent"
+            android:src="@drawable/pickeatupicon"
+            android:layout_height="200dp" />
+
+
+
+
+</androidx.cardview.widget.CardView>

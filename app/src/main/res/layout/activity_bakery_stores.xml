@@ -1,0 +1,1493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bakerystores.BakeryStores">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pickeatupicon"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="5400dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename1"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename2"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename3"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore4"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/pickeatupicon"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename4"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename5"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename6"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename7"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename8"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename9"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename10"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename11"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename13"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename14"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename15"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename16"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename17"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename18"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename19"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/bstore20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/bstorename20"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoreadress20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/bstoretime20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AdressVishwa"
+    android:background="#000000">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Details"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#F6F0F0"
+        android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F4EAEA">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"></TextView>
+
+    <EditText
+        android:id="@+id/aname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"></EditText>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Surame :"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/alastname"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Surname"
+            android:inputType="textPersonName"></EditText>
+</LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adress Line 1 :"
+            android:inputType="textPersonName"></TextView>
+
+        <EditText
+            android:id="@+id/adress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Flat, House no, Building, Apartment"
+            android:inputType="textPersonName"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adress Line 2 :"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/adress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Area, Colony, Street, Sector"
+            android:inputType="textPersonName"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adress Line 3 :"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/adress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Landmark (Eg: Near Axis Bank)"
+            android:inputType="textPersonName"></EditText>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City: "></TextView>
+
+        <EditText
+            android:id="@+id/acity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your City"
+            android:text="LATUR"
+
+            android:inputType="textPersonName"></EditText>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Pincode:"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/apincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your City Pincode"
+            android:inputType="number"
+            android:maxLength="6"></EditText>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile No :"
+          ></TextView>
+
+        <EditText
+            android:id="@+id/aphoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter order Reciever's mobile number"
+            android:inputType="number"
+            android:maxLength="10"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FBF8F8">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email id :"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/aemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email Id (Optional)"
+            android:inputType="textEmailAddress"></EditText>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+<!--            <Button-->
+<!--                android:id="@+id/bt_picker"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Update Location on Map"-->
+<!--                android:textAllCaps="false"/>-->
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Summary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FAF1F1"
+        android:layout_gravity="center"></TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount                = ₹"
+            android:textColor="#FAF1F1"></TextView>
+
+        <TextView
+            android:id="@+id/aamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FAF1F1"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Charge    = ₹"
+            android:textColor="#FAF1F1"></TextView>
+
+        <TextView
+            android:id="@+id/ascharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FAF1F1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total        = ₹"
+            android:textColor="#FAF1F1"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/atamount"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FAF1F1"></TextView>
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed To Pay"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#7CB342"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anote"
+        android:textStyle="italic"
+        android:textColor="#FFB300"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alat"
+        android:textStyle="italic"
+        android:textColor="#0C0101"
+        android:layout_marginTop="10dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/along"
+        android:textStyle="italic"
+        android:textColor="#100101"
+        android:layout_marginTop="10dp"></TextView>
+
+
+
+
+
+
+
+
+</LinearLayout>

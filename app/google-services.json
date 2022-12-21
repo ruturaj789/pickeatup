@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "898574911660",
+    "firebase_url": "https://pickeatup-c2713.firebaseio.com",
+    "project_id": "pickeatup-c2713",
+    "storage_bucket": "pickeatup-c2713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898574911660:android:72187387e55ad0eb8b7709",
+        "android_client_info": {
+          "package_name": "com.raj.pickeatup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898574911660-136lrrsb3pv9b28vdii3i1bsghmlf2pp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raj.pickeatup",
+            "certificate_hash": "cb93a61434d870a61aa1ab51721d97cd4328c636"
+          }
+        },
+        {
+          "client_id": "898574911660-1s14pdtcm3l337r315lgtfpq7bjgdo4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raj.pickeatup",
+            "certificate_hash": "5945a903cce9789911a75e94c8eac45d0deac7a4"
+          }
+        },
+        {
+          "client_id": "898574911660-gc8ged3cktpqhioflit6sio9tjoemc6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raj.pickeatup",
+            "certificate_hash": "6c82b3beee82f4df56234697ba59acacac1f0334"
+          }
+        },
+        {
+          "client_id": "898574911660-0ak5cv1l3keqgcsmtnkp35orkusuini0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn8UviaiHraA_AoKDlknjBzZvrULlx5P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898574911660-0ak5cv1l3keqgcsmtnkp35orkusuini0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898574911660:android:b2fb0ab7932d05b18b7709",
+        "android_client_info": {
+          "package_name": "com.raj.pickeatupdelivarypartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898574911660-d4if44uqe6b7kv8opj83e5rko9er82f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raj.pickeatupdelivarypartner",
+            "certificate_hash": "cb93a61434d870a61aa1ab51721d97cd4328c636"
+          }
+        },
+        {
+          "client_id": "898574911660-0ak5cv1l3keqgcsmtnkp35orkusuini0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn8UviaiHraA_AoKDlknjBzZvrULlx5P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898574911660-0ak5cv1l3keqgcsmtnkp35orkusuini0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898574911660:android:2a1865a01e1de9c58b7709",
+        "android_client_info": {
+          "package_name": "com.raj.servicedepartment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898574911660-n48qs7n6nq1j7rlq1414k7i5kbkq1ilm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raj.servicedepartment",
+            "certificate_hash": "cb93a61434d870a61aa1ab51721d97cd4328c636"
+          }
+        },
+        {
+          "client_id": "898574911660-0ak5cv1l3keqgcsmtnkp35orkusuini0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn8UviaiHraA_AoKDlknjBzZvrULlx5P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898574911660-0ak5cv1l3keqgcsmtnkp35orkusuini0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".giftstores.GiftStores">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/pickeatupicon"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="5400dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename1"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename2"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename3"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore4"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/pickeatupicon"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename4"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename5"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename6"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename7"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename8"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename9"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename10"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename11"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename12"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename13"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename14"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename15"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename16"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename17"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename18"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename19"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/fstore20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="145dp"
+
+                        android:layout_gravity="center"></ImageView>
+
+                    <TextView
+                        android:id="@+id/fstorename20"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="20dp"
+
+                        android:textColor="#0A0B09"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoreadress20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#0C0C0A"></TextView>
+
+                    <TextView
+                        android:id="@+id/fstoretime20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+
+
+
+                        android:textSize="12dp"
+
+                        android:textColor="#131313"></TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
